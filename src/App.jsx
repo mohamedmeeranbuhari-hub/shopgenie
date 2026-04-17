@@ -32,7 +32,6 @@ function App() {
 
     const cartIds = cart.map(item => item.id);
     const hasPhone = cartIds.includes(1);
-    const hasWatch = cartIds.includes(2);
     const hasCharger = cartIds.includes(3);
     const hasCase = cartIds.includes(4);
     const hasEarbuds = cartIds.includes(5);
